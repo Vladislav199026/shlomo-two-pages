@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?8r9vww');
+  src:  url('fonts/icomoon.eot?8r9vww#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8r9vww') format('truetype'),
+    url('fonts/icomoon.woff?8r9vww') format('woff'),
+    url('fonts/icomoon.svg?8r9vww#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-car:before {
+  content: "\e900";
+  color: #1d4076;
+}
+.icon-mail:before {
+  content: "\e901";
+  color: #21325e;
+}
+.icon-pen:before {
+  content: "\e902";
+  color: #21325e;
+}
+.icon-Polygon-2:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-user:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-done:before {
+  content: "\e903";
+}
+.icon-plus:before {
+  content: "\e908";
+}
